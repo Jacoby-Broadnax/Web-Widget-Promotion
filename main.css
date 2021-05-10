@@ -6,6 +6,8 @@
   font-family: "Open Sans";
 }
 
+html {scroll-behavior: smooth;}
+
 .first-slash {
   height: 100vh;
   object-fit: cover;
@@ -42,6 +44,7 @@ nav {
   text-decoration: none;
   padding: 15px;
   transition: 0.2s ease;
+  cursor: pointer;
 }
 
 .nav-links > li > a:hover {
