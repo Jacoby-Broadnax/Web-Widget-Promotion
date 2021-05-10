@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="86" height="86" viewBox="0 0 86 86">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1.452" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c04cb8"/>
+      <stop offset="1" stop-color="#e1323e"/>
+    </linearGradient>
+    <clipPath id="clip-iconb_8">
+      <rect width="86" height="86"/>
+    </clipPath>
+  </defs>
+  <g id="iconb_8" data-name="iconb – 8" clip-path="url(#clip-iconb_8)">
+    <rect id="Rectangle_238" data-name="Rectangle 238" width="86" height="86" rx="43" fill="url(#linear-gradient)"/>
+    <g id="dynamic_form_black_24dp" transform="translate(29 29)">
+      <rect id="Rectangle_239" data-name="Rectangle 239" width="29" height="29" fill="none"/>
+      <path id="Path_73" data-name="Path 73" d="M15.292,12.458H4.417A2.424,2.424,0,0,1,2,10.042V6.417A2.424,2.424,0,0,1,4.417,4H15.292ZM4.417,10.042h8.458V6.417H4.417ZM17.708,23.333H4.417A2.424,2.424,0,0,1,2,20.917V17.292a2.424,2.424,0,0,1,2.417-2.417H17.708ZM4.417,20.917H15.292V17.292H4.417Zm21.75-10.875H23.75L26.167,4H17.708v8.458h2.417V23.333ZM5.323,20.01H7.135V18.2H5.323Zm0-10.875H7.135V7.323H5.323Z" transform="translate(0.417 0.833)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
