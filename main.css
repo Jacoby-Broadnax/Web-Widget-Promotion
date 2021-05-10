@@ -88,6 +88,23 @@ nav {
   cursor: pointer;
 }
 
+.large-input {
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 50px;
+  background-color: transparent;
+  border: solid 2px white;
+  color: white;
+  margin-right: 8px;
+}
+
+.large-input::placeholder {color: white;}
+
+.large-input:focus {outline: none;}
+
 .low-btn {
   padding: 15px;
   font-size: 15px;

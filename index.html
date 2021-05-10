@@ -54,8 +54,42 @@
             <div class="home-container">
             <div class="home-text">
                 <h1>INTRODUCING WEB WIDGETS</h1>
-                <p>Make Your New Tab Page Uniquely Yours.</p>
-                <div class="cta-btns">
+                <p>Beta coming soon. Get notified below. </p>
+                <div class="cta-prompt">
+                    <form id="notify" action="https://api.sheety.co/1c0174d5b32dbebdf6f1e14d6ba67a4f/widgetPublishing/emails">
+                        <input id="email" class="large-input" type="email" placeholder="Enter Email">
+                        <button class="btn" type="submit">Get Notified</button>
+                    </form>
+                 <script>
+                     
+
+$(document).ready(function(){
+    $('#notify').submit(function(e) {
+      e.preventDefault();
+      let form = $(this);
+      $.ajax({
+        type: 'post',
+        dataType: 'jsxon',
+        url: form.attr('action'),
+        contentType: 'application/json; charset=utf-8',
+        data: JSON.stringify({
+          email: {
+            email: document.getElementById('email').value,
+          } 
+        }),
+        success: function() {
+            
+        },
+        error: function(xhr, res, text) {
+            alert('Thank you for signing up, look out for an email from us in a few days.😊');
+        
+        }
+      });
+    });
+  });
+                 </script>
+                </div>
+                <div class="cta-btns" style="display: none;">
                     <a href="#"><button class="btn">Install Now</button></a>
                     <a  href="#"><button class="low-btn">Learn More</button></a>
                 </div>
