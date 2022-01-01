@@ -18,6 +18,12 @@ nav {
     align-items: center;
   }
 
+  body {
+    scroll-snap-type: y mandatory;
+  }
+
+  
+
 nav > img {width: 52px;border-radius: 50px;margin-right: 15px;margin-left: 35px;}  
   
   .nav-links {
@@ -47,7 +53,7 @@ nav > img {width: 52px;border-radius: 50px;margin-right: 15px;margin-left: 35px;
     color: rgba(66, 66, 66, 0.685);
   }
   
-  .section-wrap {height: 100vh;background-color: white;display: flex;align-items: center;justify-content: center;}
+  .section-wrap {height: 100vh;background-color: white;display: flex;align-items: center;justify-content: center;scroll-snap-align: start;}
 
   .text-container { width: 500px}
 
@@ -94,4 +100,6 @@ nav > img {width: 52px;border-radius: 50px;margin-right: 15px;margin-left: 35px;
 .vid-m {gap: 11vw;}
 
 .flatm > video  {width: 650px;height:369px ;}
+
+.flatb > video {width: 644px;height:369px }
 
