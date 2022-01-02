@@ -6,8 +6,7 @@
   font-family: "Open Sans";
 }
 
-html {scroll-behavior: smooth;  
-    scroll-snap-type: y proximity;}
+html {}
 
 nav {
     position: absolute;
@@ -132,4 +131,31 @@ footer {background-color:#F9F9F9;width: 100%;height: fit-content;padding-top: 13
 
 .top-sub {margin-bottom: 30px;}
 
+}
+
+@media only screen and (max-width: 645px) {
+    .text-container {width: 100%;
+        padding: 28px;
+        box-sizing: border-box;}
+
+    .media-container {width: 100%;display: flex; justify-content: center;}
+
+ .media-container > video {border-radius: 15px;}
+
+ .flat > video {width: 348px;
+    height: 199px;}
+
+    .flatb > video {width: 348px;
+        height: 199px;}
+
+        .flatm > video {width: 348px;
+            height: 199px;}
+
+        .section-wrap {height: fit-content}
+
+        .text-wrap {margin-bottom: 0px;}
+
+        .media-container > img {width: 348px; border-radius: 15px;}
+
+      
 }
