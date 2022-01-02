@@ -157,5 +157,5 @@ footer {background-color:#F9F9F9;width: 100%;height: fit-content;padding-top: 13
 
         .media-container > img {width: 348px; border-radius: 15px;}
 
-      
+      .center-text > div > h1 {text-align: center;}
 }
