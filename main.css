@@ -158,4 +158,13 @@ footer {background-color:#F9F9F9;width: 100%;height: fit-content;padding-top: 13
         .media-container > img {width: 348px; border-radius: 15px;}
 
       .center-text > div > h1 {text-align: center;}
+
+      .nav-links > li {padding: 0px;}
+
+      nav {    flex-direction: column;
+        gap: 15px;}
+
+        .top {margin-top: 121px;}
+
+        nav > img {margin-left: 0px;}
 }
