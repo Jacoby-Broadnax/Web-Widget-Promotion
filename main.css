@@ -155,7 +155,11 @@ footer {background-color:#F9F9F9;width: 100%;height: fit-content;padding-top: 13
 
         .text-wrap {margin-bottom: 0px;}
 
-        .media-container > img {width: 348px; border-radius: 15px;}
+        .media-container > img {width: 348px; border-radius: 15px;
+          height: 439px;
+          object-fit: contain;
+          box-shadow: none;
+      }
 
       .center-text > div > h1 {text-align: center;}
 
